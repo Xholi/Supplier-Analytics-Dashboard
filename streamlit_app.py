@@ -692,7 +692,7 @@ def main():
 
     else:
         # Load pre-existing dataset (Modify path to your default file)
-        df = pd.read_excel("C:/Users/Xholisile Mantshongo/Downloads/wetransfer_currentreports_2025-01-28_1754/CurrentReports/AllPO'stoSuppliers.xlsx")  
+        df = pd.read_excel("AllPO'stoSuppliers.xlsx")  
         # Sidebar for supplier selection
         analytics = SupplierAnalytics(df)
         st.sidebar.header("Supplier Selection")
